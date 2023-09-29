@@ -1,0 +1,13 @@
+version: '3'
+services:
+  react-app:
+    image: react-app:latest
+    ports:
+      - "3000:3000"
+    depends_on:
+      - spring-app
+
+  spring-app:
+    image: spring-app:latest
+    ports:
+      - "8090:8090"
