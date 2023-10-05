@@ -24,7 +24,7 @@
 
     <properties>
         <main.basedir>${project.basedir}</main.basedir>
-        <java.version>17</java.version>
+        <java.version>17.0.8.1</java.version>
     </properties>
 
 </project>
